@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AppCP</title>
+  <!-- materialize icons, css & js -->
+  <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" href="/css/style.css" rel="stylesheet">
+  <!--<link rel="manifest" href="/manifest.json">-->
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#AA7700">
+  <meta name="theme-color" content="#FFE1C4">
+</head>
+<body>
+
+  <div class="card">
+    <div class="card-content">
+      <h1>Disponibilità</h1>
+      <form action="#" class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <input type="text" id="date" class="datepicker" />
+            <label for="date">Data</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s1">
+            <label>
+              <input type="checkbox" />
+              <span> 01</span>
+            </label>
+          </div>
+          <div class="col s1 offset-s2">
+            <label>
+              <input type="checkbox" />
+              <span> 06</span>
+            </label>
+          </div>
+          <div class="col s1 offset-s2">
+            <label>
+              <input type="checkbox" />
+              <span> 13</span>
+            </label>
+          </div>
+          <div class="col s1 offset-s2">
+            <label>
+              <input type="checkbox" />
+              <span> 19</span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="note" class="materialize-textarea" style="height: 200px;"></textarea>
+            <label for="note">Note</label>
+          </div>
+        </div>
+      </form>
+      <div class="row">
+        <a class="waves-effect left black-text" href="/" id=""><i class="material-icons">arrow_back</i></a>
+        <a class="waves-effect right black-text" href="/" id=""><i class="material-icons small">check_circle</i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="page-footer orange darken-3">
+    <div class="footer-copyright orange darken-3">
+      <div class="container">
+      ©2020 Compagnia Portuale Srl
+      </div>
+    </div>
+  </footer>
+    
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <script type="text/javascript" src="/js/ui.js"></script>
+</body>
+</html>
